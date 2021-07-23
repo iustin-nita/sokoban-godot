@@ -11,10 +11,9 @@ func _ready() -> void:
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	$water.translation.y = lerp($water.translation.y, water_height, 0.15)  # smooth
-	print($water.translation.y)
 
 func _on_Timer_timeout() -> void:
 	randomize()
 	water_height = rand_range(1.4, 2.0)
 	$Timer.wait_time = rand_range(0.1, 0.6)
-	print('timer')
+

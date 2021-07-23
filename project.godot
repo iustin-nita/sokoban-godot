@@ -1,0 +1,33 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+[application]
+
+config/name="Sokoban"
+run/main_scene="res://basic_scene.tscn"
+config/icon="res://icon.png"
+
+[editor_plugins]
+
+enabled=PoolStringArray( "res://addons/MagicaVoxel_Importer_with_Extensions/plugin.cfg" )
+
+[global]
+
+types=false
+type=false
+
+[physics]
+
+common/enable_pause_aware_picking=true
+
+[rendering]
+
+quality/filters/msaa=1
+environment/default_environment="res://default_env.tres"

@@ -1,0 +1,16 @@
+[remap]
+
+importer="MagicaVoxel.With.Extensions"
+type="Mesh"
+path="res://.import/pad_arrow.vox-7988918b0bbd7d6163af48cbd593a05b.mesh"
+
+[deps]
+
+source_file="res://vox/pad_arrow.vox"
+dest_files=[ "res://.import/pad_arrow.vox-7988918b0bbd7d6163af48cbd593a05b.mesh" ]
+
+[params]
+
+Scale=0.1
+GreedyMeshGenerator=true
+SnapToGround=false
